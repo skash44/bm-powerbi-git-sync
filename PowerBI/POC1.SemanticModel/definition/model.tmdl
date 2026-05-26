@@ -10,6 +10,8 @@ annotation __PBI_TimeIntelligenceEnabled = 1
 
 annotation PBI_QueryOrder = ["financials","Sheet1"]
 
+annotation PBI_ProTooling = ["DevMode"]
+
 ref table financials
 ref table DateTableTemplate_8292548f-b51b-45ac-8acf-bc75d35c1925
 ref table LocalDateTable_4b957a37-e975-4832-9514-2d7b17a516d1
