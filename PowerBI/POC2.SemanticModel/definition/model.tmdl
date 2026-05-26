@@ -1,0 +1,19 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-IN
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["Sample - Superstore_Orders"]
+
+ref table 'Sample - Superstore_Orders'
+ref table DateTableTemplate_e79b9aef-e611-4a3b-b277-46d99d8c8f32
+ref table LocalDateTable_41a864cf-82ea-408f-aacf-221f8adae603
+ref table LocalDateTable_ab2be09f-a55b-454d-83b9-60c459731cfb
+
+ref cultureInfo en-US
+
