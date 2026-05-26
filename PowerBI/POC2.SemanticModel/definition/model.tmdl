@@ -10,6 +10,8 @@ annotation __PBI_TimeIntelligenceEnabled = 1
 
 annotation PBI_QueryOrder = ["Sample - Superstore_Orders"]
 
+annotation PBI_ProTooling = ["DevMode"]
+
 ref table 'Sample - Superstore_Orders'
 ref table DateTableTemplate_e79b9aef-e611-4a3b-b277-46d99d8c8f32
 ref table LocalDateTable_41a864cf-82ea-408f-aacf-221f8adae603
